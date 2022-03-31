@@ -32,6 +32,5 @@ const newLi = (name, index, compleated) => {
 };
 
 list.forEach((item) => {
-  t
-odoList.appendChild(newLi(item.name, item.index, item.compleated));
+  todoList.appendChild(newLi(item.name, item.index, item.compleated));
 });
