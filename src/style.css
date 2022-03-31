@@ -1,6 +1,15 @@
-.just {
-    font-size: x-large;
-    font-weight: 900;
-    font-style: italic;
-    justify-content: center;
+body {
+  background-color: #eee;
+}
+
+#todoList {
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  filter: drop-shadow(3px 3px 2px #ccc);
+}
+
+#todoList li {
+  border-bottom: solid #ccc 1px;
+  padding: 10px;
 }
