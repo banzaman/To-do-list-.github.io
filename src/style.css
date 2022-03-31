@@ -2,14 +2,65 @@ body {
   background-color: #eee;
 }
 
-#todoList {
+#todoDiv {
   background: #fff;
-  list-style: none;
-  padding: 0;
   filter: drop-shadow(3px 3px 2px #ccc);
+  max-width: 350px;
 }
 
-#todoList li {
+#todoList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1rem;
   border-bottom: solid #ccc 1px;
   padding: 10px;
+  margin: 0;
+}
+
+#addTask {
+  border: none;
+  font-style: italic;
+  line-height: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+
+.task {
+  border-bottom: solid #ccc 1px;
+  padding: 10px;
+  display: flex;
+}
+
+.task label {
+  flex-grow: 3;
+}
+
+#add {
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+#enter {
+  border: none;
+  background: inherit;
+  padding: 0 10px 0 0;
+  height: 40px;
+  width: 35px;
+}
+
+.remove {
+  height: 20px;
+  width: 20px;
+  margin-left: auto;
+}
+
+.remove img {
+  height: 100%;
 }
