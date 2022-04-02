@@ -5,6 +5,7 @@ import trashImg from './img/trash.png';
 import task from './modules/taskList.mjs';
 import listen from './modules/addtask.mjs';
 import newLi from './modules/taskBuild.mjs';
+import clear from './modules/clearComp.mjs';
 
 const todoList = document.getElementById('todoList');
 
@@ -22,4 +23,10 @@ task.list.forEach((item) => {
   );
 });
 
+// Add task
 listen(task.list, trashImg, todoList);
+
+// Clear Completed
+const clearBtn = document.getElementById('clear');
+
+clear(clearBtn, task.list, todoList);

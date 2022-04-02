@@ -1,5 +1,6 @@
 import remove from './remove.mjs';
 import editTask from './editDesc.mjs';
+import checkBox from './checkbox.mjs';
 
 // Create Li element
 const newLi = (name, index, completed, trashImg, taskList, todoList) => {
@@ -9,11 +10,13 @@ const newLi = (name, index, completed, trashImg, taskList, todoList) => {
     element.innerHTML = `<input type="checkbox" name="${index}" checked><label for="${index}">${name}</label><div class="remove"><img src=${trashImg} alt="remove"/>`;
     remove(element, index, taskList, todoList);
     editTask(element, taskList);
+    checkBox(element, index, taskList);
     return element;
   }
   element.innerHTML = `<input type="checkbox" name="${index}"><label for="${index}">${name}</label><div class="remove"><img src=${trashImg} alt="remove"/>`;
   remove(element, index, taskList, todoList);
   editTask(element, taskList);
+  checkBox(element, index, taskList);
   return element;
 };
 

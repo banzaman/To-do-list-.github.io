@@ -1,6 +1,8 @@
 import remove from './remove.mjs';
 import editTask from './editDesc.mjs';
 import toLS from './saveLocalStorage.mjs';
+import checkBox from './checkbox.mjs';
+
 
 const addDiv = document.getElementById('add');
 const input = document.getElementById('addTask');
