@@ -16,6 +16,7 @@
 - HTML
 - CSS
 - JAVASCRIPT
+- NPM
 
 ## Live Demo (if available)
 
