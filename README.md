@@ -66,7 +66,7 @@ For the Live Server `npm start` http://localhost:8080/
 
 - GitHub: [@banzaman](https://github.com/banzaman)
 - Twitter: [@banzamarq10](https://twitter.com/banzamarq10)
-- LinkedIn: [markrubanzaanderson](https://www.linkedin.com/in/mark-rubanza-anderson-4399a2211/)
+- LinkedIn: [Mark Rubanza Anderson](https://www.linkedin.com/in/mark-rubanza-anderson-4399a2211/)
 
 ## 🤝 Contributing
 
